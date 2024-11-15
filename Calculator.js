@@ -46,7 +46,7 @@ function subtraction(numbers) {
 function division(number1, number2) {
   const division =
     number2 === 0
-      ? `A number can not be divided by ${number2} `
+      ? `A number can not be divided by 🤯 ${number2} `
       : Math.round(number1 / number2);
   return division;
 }
